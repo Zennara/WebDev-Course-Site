@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact | Keagan Landfried</title>
+    </head>
+
+    <a href="index.html">Home</a>
+    <a href="contact.html">Contact</a>
+    <a href="projects.html">Projects</a>
+
+    <body>
+        <h1>Contact Me</h1>
+
+        <!-- Nested contact lists -->
+        <ul>
+            <li>Email</li>
+
+            <!-- Makes a nested list inside of the outer one -->
+            <ul>
+                <li><a href="mailto:keagan@excelpointsolutions.com">Send me an email</a></li>
+            </ul>
+
+            <li>Social Medias</li>
+
+            <ul>
+                <li><a href="https://www.discord.com/invite/xdvHuzcGa9">Discord</a></li>
+                <li><a href="https://www.linkedin.com/in/keagan-landfried-9b537a257/">LinkedIn</a></li>
+            </ul>
+        </ul>
+
+        <hr>
+
+        <h3>Email Form</h3>
+
+        <form action="mailto:keagan@excelpointsolutions.com" method="post" enctype="text/plain">
+            <label>Name:</label>
+            <input type="text" name="Messager Name:">
+            <br><br>
+
+            <label>Email:</label>
+            <input type="email" name="Messager Email:">
+            <br><br>
+
+            <label>Message</label><br>
+            <textarea name="Message:" rows="10" cols="50"></textarea>
+            <br>
+
+            <input type="submit">
+        </form>
+
+    </body>
+</html>
